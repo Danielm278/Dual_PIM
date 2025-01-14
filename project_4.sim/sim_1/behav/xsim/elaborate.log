@@ -1,0 +1,244 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L microblaze_v11_0_14 -L lmb_v10_v3_0_14 -L lmb_bram_if_cntlr_v4_0_25 -L blk_mem_gen_v8_4_9 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_16 -L axi_lite_ipif_v3_0_4 -L lib_pkg_v1_0_4 -L lib_srl_fifo_v1_0_4 -L axi_uart16550_v2_0_35 -L xlconstant_v1_1_9 -L smartconnect_v1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_33 -L axi_vip_v1_1_19 -L mdm_v3_2_27 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Top_Level_behav xil_defaultlib.Top_Level xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'ip2intc_irpt' is not connected on this instance [C:/project_4/project_4.ip_user_files/bd/arm_processor/sim/arm_processor.v:141]
+WARNING: [VRFC 10-5021] port 'interrupt_ack' is not connected on this instance [C:/project_4/project_4.ip_user_files/bd/arm_processor/sim/arm_processor.v:185]
+WARNING: [VRFC 10-5021] port 'peripheral_reset' is not connected on this instance [C:/project_4/project_4.ip_user_files/bd/arm_processor/sim/arm_processor.v:261]
+WARNING: [VRFC 10-5021] port 'mb_reset' is not connected on this instance [C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/sim/bd_1ae3.v:616]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [C:/project_4/project_4.ip_user_files/bd/arm_processor/sim/arm_processor.v:397]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [C:/project_4/project_4.ip_user_files/bd/arm_processor/sim/arm_processor.v:443]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_arith
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_unsigned
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package lib_pkg_v1_0_4.lib_pkg
+Compiling package mdm_v3_2_27.mdm_funcs
+Compiling package microblaze_v11_0_14.microblaze_types
+Compiling package microblaze_v11_0_14.microblaze_isa
+Compiling package microblaze_v11_0_14.mmu_types
+Compiling package lmb_bram_if_cntlr_v4_0_25.lmb_bram_if_funcs
+Compiling package smartconnect_v1_0.sc_util_v1_0_4_pkg
+Compiling module xlconstant_v1_1_9.xlconstant_v1_1_9_xlconstant(CON...
+Compiling module xil_defaultlib.bd_1ae3_one_0
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_3.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.proc_sys_reset [\proc_sys_reset(c_family="kintex...]
+Compiling architecture bd_1ae3_psr_aclk_0_arch of entity xil_defaultlib.bd_1ae3_psr_aclk_0 [bd_1ae3_psr_aclk_0_default]
+Compiling module xil_defaultlib.clk_map_imp_138M7VH
+Compiling module xpm.xpm_cdc_async_rst(DEST_SYNC_FF=3...
+Compiling module xil_defaultlib.bd_1ae3_m00e_0
+Compiling module xil_defaultlib.m00_exit_pipeline_imp_WOD7D2
+Compiling module xil_defaultlib.bd_1ae3_m00s2a_0
+Compiling module xil_defaultlib.bd_1ae3_s00a2s_0
+Compiling module xil_defaultlib.bd_1ae3_s00mmu_0
+Compiling module xil_defaultlib.bd_1ae3_s00sic_0
+Compiling module xil_defaultlib.bd_1ae3_s00tr_0
+Compiling module xil_defaultlib.s00_entry_pipeline_imp_1WIH6RP
+Compiling module xil_defaultlib.bd_1ae3_sarn_0
+Compiling module xil_defaultlib.bd_1ae3_sawn_0
+Compiling module xil_defaultlib.bd_1ae3_sbn_0
+Compiling module xil_defaultlib.bd_1ae3_srn_0
+Compiling module xil_defaultlib.bd_1ae3_swn_0
+Compiling module xil_defaultlib.s00_nodes_imp_1R2QA3J
+Compiling module xil_defaultlib.bd_1ae3
+Compiling module xil_defaultlib.arm_processor_axi_smc_0
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=5,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture oddre1_v of entity unisim.ODDRE1 [\ODDRE1(1,10)\]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_4.cntr_incr_decr_addn_f [\cntr_incr_decr_addn_f(c_size=5,...]
+Compiling architecture behavioral of entity lib_srl_fifo_v1_0_4.dynshreg_f [\dynshreg_f(c_depth=16,c_dwidth=...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_4.srl_fifo_rbu_f [\srl_fifo_rbu_f(c_dwidth=8,c_fam...]
+Compiling architecture implementation of entity axi_uart16550_v2_0_35.tx_fifo_block [\tx_fifo_block(c_family="kintexu...]
+Compiling architecture implementation of entity axi_uart16550_v2_0_35.rx_fifo_control [\rx_fifo_control(c_family="kinte...]
+Compiling architecture behavioral of entity lib_srl_fifo_v1_0_4.dynshreg_f [\dynshreg_f(c_depth=16,c_dwidth=...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_4.srl_fifo_rbu_f [\srl_fifo_rbu_f(c_dwidth=11,c_fa...]
+Compiling architecture implementation of entity axi_uart16550_v2_0_35.rx_fifo_block [\rx_fifo_block(c_family="kintexu...]
+Compiling architecture implementation of entity axi_uart16550_v2_0_35.xuart_tx_load_sm [xuart_tx_load_sm_default]
+Compiling architecture implementation of entity axi_uart16550_v2_0_35.rx16550 [rx16550_default]
+Compiling architecture implementation of entity axi_uart16550_v2_0_35.tx16550 [tx16550_default]
+Compiling architecture implementation of entity axi_uart16550_v2_0_35.uart16550 [\uart16550(c_is_a_16550=true,c_e...]
+Compiling architecture imp of entity axi_uart16550_v2_0_35.ipic_if [ipic_if_default]
+Compiling architecture imp of entity axi_uart16550_v2_0_35.xuart [\xuart(c_family="kintexuplus",c_...]
+Compiling architecture rtl of entity axi_uart16550_v2_0_35.axi_uart16550 [\axi_uart16550(c_family="kintexu...]
+Compiling architecture arm_processor_axi_uart16550_0_0_arch of entity xil_defaultlib.arm_processor_axi_uart16550_0_0 [arm_processor_axi_uart16550_0_0_...]
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME4_ADV(CLKFBOUT_MULT_F=4.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.arm_processor_clk_wiz_1_0_clk_wi...
+Compiling module xil_defaultlib.arm_processor_clk_wiz_1_0
+Compiling architecture bscane2_v of entity unisim.BSCANE2 [\BSCANE2(jtag_chain=2)(1,5)\]
+Compiling architecture imp of entity mdm_v3_2_27.MB_BSCANE2 [\MB_BSCANE2(c_target=kintexuplus...]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="10")(0,1)\]
+Compiling architecture imp of entity mdm_v3_2_27.MB_LUT1 [\MB_LUT1(c_target=kintexuplus,in...]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture imp of entity mdm_v3_2_27.MB_BUFG [\MB_BUFG(c_target=kintexuplus)\]
+Compiling architecture imp of entity mdm_v3_2_27.xil_scan_reset_control [xil_scan_reset_control_default]
+Compiling architecture fdce_v of entity unisim.FDCE [fdce_default]
+Compiling architecture fdc_1_v of entity unisim.FDC_1 [fdc_1_default]
+Compiling architecture imp of entity mdm_v3_2_27.MB_FDC_1 [\MB_FDC_1(c_target=kintexuplus)\]
+Compiling architecture fdre_1_v of entity unisim.FDRE_1 [fdre_1_default]
+Compiling architecture imp of entity mdm_v3_2_27.MB_FDRE_1 [\MB_FDRE_1(c_target=kintexuplus)...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0000000101100111")...]
+Compiling architecture imp of entity mdm_v3_2_27.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0100001010000111")...]
+Compiling architecture imp of entity mdm_v3_2_27.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0100010001000011")...]
+Compiling architecture imp of entity mdm_v3_2_27.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0101100001001101")...]
+Compiling architecture imp of entity mdm_v3_2_27.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture imp of entity mdm_v3_2_27.JTAG_CONTROL [\JTAG_CONTROL(c_target=kintexupl...]
+Compiling architecture imp of entity mdm_v3_2_27.MDM_Core [\MDM_Core(c_target=kintexuplus,c...]
+Compiling architecture imp of entity mdm_v3_2_27.MDM [\MDM(c_family="kintexuplus",c_de...]
+Compiling architecture arm_processor_mdm_0_0_arch of entity xil_defaultlib.arm_processor_mdm_0_0 [arm_processor_mdm_0_0_default]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_bit [mb_sync_bit_default]
+Compiling architecture imp of entity microblaze_v11_0_14.DAXI_interface [\DAXI_interface(c_data_size=32,c...]
+Compiling architecture and2b1l_v of entity unisim.AND2B1L [and2b1l_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_AND2B1L [\MB_AND2B1L(c_target=kintexuplus...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0011111111111111")...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0000000000011011")...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(15,0)\]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0000000001100100")...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0010010100000000")...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_SRL16E [\MB_SRL16E(c_target=kintexuplus,...]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_bit [\mb_sync_bit(c_levels=1,c_reset_...]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_vec [\mb_sync_vec(c_levels=1,c_reset_...]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_bit [\mb_sync_bit(c_levels=1)\]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_vec [\mb_sync_vec(c_width=10)\]
+Compiling architecture srlc16e_v of entity unisim.SRLC16E [\SRLC16E(0,15)\]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_SRLC16E [\MB_SRLC16E(c_target=kintexuplus...]
+Compiling architecture imp of entity microblaze_v11_0_14.address_hit [\address_hit(c_target=kintexuplu...]
+Compiling architecture imp of entity microblaze_v11_0_14.xil_scan_reset_control [xil_scan_reset_control_default]
+Compiling architecture imp of entity microblaze_v11_0_14.Debug [\Debug(c_data_size=32,c_instr_si...]
+Compiling architecture imp of entity microblaze_v11_0_14.interrupt_mode_converter [\interrupt_mode_converter(c_edge...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=kintexuplus,in...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=kintexuplus,in...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_FDRE [\MB_FDRE(c_target=kintexuplus)\]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_MUXCY_XORCY [\MB_MUXCY_XORCY(c_target=kintexu...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_MUXF7 [\MB_MUXF7(c_target=kintexuplus)\]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_FDR [\MB_FDR(c_target=kintexuplus)\]
+Compiling architecture imp of entity microblaze_v11_0_14.PC_Module_gti [\PC_Module_gti(c_data_size=32,c_...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=kintexuplus,in...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000001111...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=kintexuplus,in...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000000001111...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=kintexuplus,in...]
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture fds_v of entity unisim.FDS [fds_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_FDS [\MB_FDS(c_target=kintexuplus)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000111111110000...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=kintexuplus,in...]
+Compiling architecture imp of entity microblaze_v11_0_14.PreFetch_Buffer_gti [\PreFetch_Buffer_gti(c_instr_siz...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_MUXCY [\MB_MUXCY(c_target=kintexuplus)\]
+Compiling architecture imp of entity microblaze_v11_0_14.carry_and [\carry_and(c_target=kintexuplus)...]
+Compiling architecture imp of entity microblaze_v11_0_14.jump_logic [\jump_logic(c_instr_size=32,c_ta...]
+Compiling architecture imp of entity microblaze_v11_0_14.carry_or [\carry_or(c_target=kintexuplus)\]
+Compiling architecture imp of entity microblaze_v11_0_14.Decode_gti [\Decode_gti(c_data_size=32,c_ins...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000000001111111100...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6_2 [\MB_LUT6_2(c_target=kintexuplus,...]
+Compiling architecture ram32m_v of entity unisim.RAM32M [ram32m_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_RAM32M [\MB_RAM32M(c_target=kintexuplus,...]
+Compiling architecture imp of entity microblaze_v11_0_14.Register_File_gti [\Register_File_gti(c_data_size=3...]
+Compiling architecture imp of entity microblaze_v11_0_14.Operand_Select_gti [\Operand_Select_gti(c_data_size=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011000000111101010...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6_2 [\MB_LUT6_2(c_target=kintexuplus,...]
+Compiling architecture imp of entity microblaze_v11_0_14.ALU_Bit [\ALU_Bit(c_target=kintexuplus,c_...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01100000011110101010...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=kintexuplus,in...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111101000001010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT4 [\MB_LUT4(c_target=kintexuplus,in...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture mult_and_v of entity unisim.MULT_AND [mult_and_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_MULT_AND [\MB_MULT_AND(c_target=kintexuplu...]
+Compiling architecture imp of entity microblaze_v11_0_14.ALU_Bit [\ALU_Bit(c_target=kintexuplus,c_...]
+Compiling architecture imp of entity microblaze_v11_0_14.ALU [\ALU(c_data_size=32,c_allow_lut6...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=rtl,init="1100...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=rtl,init="1100...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=rtl,init="1100...]
+Compiling architecture imp of entity microblaze_v11_0_14.Shift_Logic_Module_gti [\Shift_Logic_Module_gti(c_data_s...]
+Compiling architecture imp of entity microblaze_v11_0_14.mul_unit [\mul_unit(c_data_size=32,c_targe...]
+Compiling architecture imp of entity microblaze_v11_0_14.Barrel_Shifter_gti [\Barrel_Shifter_gti(c_data_size=...]
+Compiling architecture imp of entity microblaze_v11_0_14.WB_Mux_Bit [\WB_Mux_Bit(c_target=kintexuplus...]
+Compiling architecture imp of entity microblaze_v11_0_14.WB_Mux [\WB_Mux(c_data_size=32,c_daddr_s...]
+Compiling architecture imp of entity microblaze_v11_0_14.Zero_Detect_gti [\Zero_Detect_gti(c_data_size=32,...]
+Compiling architecture imp of entity microblaze_v11_0_14.Byte_Doublet_Handle_gti [\Byte_Doublet_Handle_gti(c_data_...]
+Compiling architecture imp of entity microblaze_v11_0_14.Data_Flow_Logic [\Data_Flow_Logic(c_data_size=32,...]
+Compiling architecture msr_reg of entity microblaze_v11_0_14.msr_reg_gti [\msr_reg_gti(c_data_size=32,c_ta...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111111110000000011...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6_2 [\MB_LUT6_2(c_target=kintexuplus,...]
+Compiling architecture imp of entity microblaze_v11_0_14.mux_bus [\mux_bus(c_target=kintexuplus,c_...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100101101001011010...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6_2 [\MB_LUT6_2(c_target=kintexuplus,...]
+Compiling architecture imp of entity microblaze_v11_0_14.exception_registers_gti [\exception_registers_gti(c_data_...]
+Compiling architecture imp of entity microblaze_v11_0_14.Fpu [\Fpu(c_data_size=32,c_target=kin...]
+Compiling architecture imp of entity microblaze_v11_0_14.PVR [\PVR(c_data_size=32,c_daddr_size...]
+Compiling architecture imp of entity microblaze_v11_0_14.Data_Flow_gti [\Data_Flow_gti(c_data_size=32,c_...]
+Compiling architecture imp of entity microblaze_v11_0_14.read_data_mux [\read_data_mux(c_data_size=32,c_...]
+Compiling architecture imp of entity microblaze_v11_0_14.instr_mux [\instr_mux(c_instr_size=32,c_lmb...]
+Compiling architecture imp of entity microblaze_v11_0_14.MMU [\MMU(c_data_size=32,c_daddr_size...]
+Compiling architecture imp of entity microblaze_v11_0_14.MicroBlaze_GTi [\MicroBlaze_GTi(c_num_sync_ff_cl...]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_bit [\mb_sync_bit(c_reset_value='1')\]
+Compiling architecture imp of entity microblaze_v11_0_14.MicroBlaze_Core [\MicroBlaze_Core(c_freq=10000000...]
+Compiling architecture imp of entity microblaze_v11_0_14.MicroBlaze [\MicroBlaze(c_freq=100000000,c_e...]
+Compiling architecture arm_processor_microblaze_0_0_arch of entity xil_defaultlib.arm_processor_microblaze_0_0 [arm_processor_microblaze_0_0_def...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.lmb_mux [\lmb_mux(c_target=kintexuplus,c_...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="kin...]
+Compiling architecture arm_processor_dlmb_bram_if_cntlr_0_arch of entity xil_defaultlib.arm_processor_dlmb_bram_if_cntlr_0 [arm_processor_dlmb_bram_if_cntlr...]
+Compiling architecture imp of entity lmb_v10_v3_0_14.lmb_v10 [\lmb_v10(c_lmb_num_slaves=1)\]
+Compiling architecture arm_processor_dlmb_v10_0_arch of entity xil_defaultlib.arm_processor_dlmb_v10_0 [arm_processor_dlmb_v10_0_default]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.lmb_mux [\lmb_mux(c_target=kintexuplus,c_...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="kin...]
+Compiling architecture arm_processor_ilmb_bram_if_cntlr_0_arch of entity xil_defaultlib.arm_processor_ilmb_bram_if_cntlr_0 [arm_processor_ilmb_bram_if_cntlr...]
+Compiling architecture arm_processor_ilmb_v10_0_arch of entity xil_defaultlib.arm_processor_ilmb_v10_0 [arm_processor_ilmb_v10_0_default]
+Compiling module blk_mem_gen_v8_4_9.blk_mem_gen_v8_4_9_output_stage(...
+Compiling module blk_mem_gen_v8_4_9.blk_mem_gen_v8_4_9_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_9.blk_mem_gen_v8_4_9_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_9.blk_mem_gen_v8_4_9(C_FAMILY="kin...
+Compiling module xil_defaultlib.arm_processor_lmb_bram_0
+Compiling module xil_defaultlib.microblaze_0_local_memory_imp_1X...
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.proc_sys_reset [\proc_sys_reset(c_family="kintex...]
+Compiling architecture arm_processor_rst_clk_wiz_1_100m_0_arch of entity xil_defaultlib.arm_processor_rst_clk_wiz_1_100M_0 [arm_processor_rst_clk_wiz_1_100m...]
+Compiling module xil_defaultlib.arm_processor
+Compiling module xil_defaultlib.Top_Level
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_Level_behav

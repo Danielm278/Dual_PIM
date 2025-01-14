@@ -1,0 +1,716 @@
+
+*** Running vivado
+    with args -log arm_processor_iomodule_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source arm_processor_iomodule_0_0.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Thu Jan  9 13:39:46 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source arm_processor_iomodule_0_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: arm_processor_iomodule_0_0
+Command: synth_design -top arm_processor_iomodule_0_0 -part xcku5p-ffvb676-2-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku5p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku5p'
+INFO: [Device 21-403] Loading part xcku5p-ffvb676-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16808
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1684.582 ; gain = 218.203
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'arm_processor_iomodule_0_0' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ip/arm_processor_iomodule_0_0/synth/arm_processor_iomodule_0_0.vhd:78]
+	Parameter C_FAMILY bound to: kintexuplus - type: string 
+	Parameter C_FREQ bound to: 100000000 - type: integer 
+	Parameter C_INSTANCE bound to: iomodule_0 - type: string 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_AVOID_PRIMITIVES bound to: 0 - type: integer 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_BASEADDR bound to: 64'b1111111111111111111111111111111111111111111111111111111111111111 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_IO_HIGHADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_IO_BASEADDR bound to: 64'b1111111111111111111111111111111111111111111111111111111111111111 
+	Parameter C_IO_MASK bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_USE_IO_BUS bound to: 0 - type: integer 
+	Parameter C_USE_UART_RX bound to: 0 - type: integer 
+	Parameter C_USE_UART_TX bound to: 0 - type: integer 
+	Parameter C_UART_BAUDRATE bound to: 9600 - type: integer 
+	Parameter C_UART_DATA_BITS bound to: 8 - type: integer 
+	Parameter C_UART_USE_PARITY bound to: 0 - type: integer 
+	Parameter C_UART_ODD_PARITY bound to: 0 - type: integer 
+	Parameter C_UART_RX_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_UART_TX_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_UART_ERROR_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_UART_PROG_BAUDRATE bound to: 0 - type: integer 
+	Parameter C_UART_FREQ bound to: 100000000 - type: integer 
+	Parameter C_UART_ASYNC bound to: 0 - type: integer 
+	Parameter C_UART_NUM_SYNC_FF bound to: 2 - type: integer 
+	Parameter C_USE_FIT1 bound to: 0 - type: integer 
+	Parameter C_FIT1_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT1_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_FIT2 bound to: 0 - type: integer 
+	Parameter C_FIT2_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT2_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_FIT3 bound to: 0 - type: integer 
+	Parameter C_FIT3_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT3_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_FIT4 bound to: 0 - type: integer 
+	Parameter C_FIT4_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT4_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT1 bound to: 0 - type: integer 
+	Parameter C_PIT1_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT1_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT1_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT1_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT2 bound to: 0 - type: integer 
+	Parameter C_PIT2_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT2_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT2_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT2_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT3 bound to: 0 - type: integer 
+	Parameter C_PIT3_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT3_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT3_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT3_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT4 bound to: 0 - type: integer 
+	Parameter C_PIT4_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT4_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT4_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT4_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPO1 bound to: 1 - type: integer 
+	Parameter C_GPO1_SIZE bound to: 8 - type: integer 
+	Parameter C_GPO1_INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_USE_GPO2 bound to: 0 - type: integer 
+	Parameter C_GPO2_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO2_INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_USE_GPO3 bound to: 0 - type: integer 
+	Parameter C_GPO3_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO3_INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_USE_GPO4 bound to: 0 - type: integer 
+	Parameter C_GPO4_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO4_INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_USE_GPI1 bound to: 0 - type: integer 
+	Parameter C_GPI1_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI1_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPI2 bound to: 0 - type: integer 
+	Parameter C_GPI2_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI2_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPI3 bound to: 0 - type: integer 
+	Parameter C_GPI3_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI3_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPI4 bound to: 0 - type: integer 
+	Parameter C_GPI4_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI4_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_INTC_USE_EXT_INTR bound to: 0 - type: integer 
+	Parameter C_INTC_INTR_SIZE bound to: 1 - type: integer 
+	Parameter C_INTC_LEVEL_EDGE bound to: 16'b0000000000000000 
+	Parameter C_INTC_POSITIVE bound to: 16'b1111111111111111 
+	Parameter C_INTC_HAS_FAST bound to: 0 - type: integer 
+	Parameter C_INTC_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_INTC_BASE_VECTORS bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_INTC_ASYNC_INTR bound to: 16'b1111111111111111 
+	Parameter C_INTC_NUM_SYNC_FF bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'iomodule' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9881' bound to instance 'U0' of component 'iomodule' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ip/arm_processor_iomodule_0_0/synth/arm_processor_iomodule_0_0.vhd:288]
+INFO: [Synth 8-638] synthesizing module 'iomodule' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:10092]
+	Parameter C_AW bound to: 32 - type: integer 
+	Parameter C_BAR bound to: 64'b1111111111111111111111111111111111111111111111111111111111111111 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'pselect_mask' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9714' bound to instance 'pselect_mask_reg' of component 'pselect_mask' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:10444]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9729]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9729]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_FREQ bound to: 100000000 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_AVOID_PRIMITIVES bound to: 0 - type: integer 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_USE_UART_RX bound to: 0 - type: integer 
+	Parameter C_USE_UART_TX bound to: 0 - type: integer 
+	Parameter C_UART_BAUDRATE bound to: 9600 - type: integer 
+	Parameter C_UART_DATA_BITS bound to: 8 - type: integer 
+	Parameter C_UART_USE_PARITY bound to: 0 - type: integer 
+	Parameter C_UART_ODD_PARITY bound to: 0 - type: integer 
+	Parameter C_UART_RX_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_UART_TX_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_UART_ERROR_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_UART_PROG_BAUDRATE bound to: 0 - type: integer 
+	Parameter C_UART_FREQ bound to: 100000000 - type: integer 
+	Parameter C_UART_ASYNC bound to: 0 - type: integer 
+	Parameter C_UART_NUM_SYNC_FF bound to: 2 - type: integer 
+	Parameter C_USE_FIT1 bound to: 0 - type: integer 
+	Parameter C_FIT1_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT1_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_FIT2 bound to: 0 - type: integer 
+	Parameter C_FIT2_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT2_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_FIT3 bound to: 0 - type: integer 
+	Parameter C_FIT3_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT3_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_FIT4 bound to: 0 - type: integer 
+	Parameter C_FIT4_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT4_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT1 bound to: 0 - type: integer 
+	Parameter C_PIT1_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT1_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT1_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT1_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT2 bound to: 0 - type: integer 
+	Parameter C_PIT2_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT2_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT2_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT2_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT3 bound to: 0 - type: integer 
+	Parameter C_PIT3_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT3_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT3_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT3_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT4 bound to: 0 - type: integer 
+	Parameter C_PIT4_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT4_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT4_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT4_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPO1 bound to: 1 - type: integer 
+	Parameter C_GPO1_SIZE bound to: 8 - type: integer 
+	Parameter C_GPO1_INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_USE_GPO2 bound to: 0 - type: integer 
+	Parameter C_GPO2_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO2_INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_USE_GPO3 bound to: 0 - type: integer 
+	Parameter C_GPO3_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO3_INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_USE_GPO4 bound to: 0 - type: integer 
+	Parameter C_GPO4_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO4_INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_USE_GPI1 bound to: 0 - type: integer 
+	Parameter C_GPI1_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI1_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPI2 bound to: 0 - type: integer 
+	Parameter C_GPI2_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI2_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPI3 bound to: 0 - type: integer 
+	Parameter C_GPI3_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI3_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPI4 bound to: 0 - type: integer 
+	Parameter C_GPI4_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI4_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_INTC_USE_EXT_INTR bound to: 0 - type: integer 
+	Parameter C_INTC_INTR_SIZE bound to: 1 - type: integer 
+	Parameter C_INTC_LEVEL_EDGE bound to: 16'b0000000000000000 
+	Parameter C_INTC_POSITIVE bound to: 16'b1111111111111111 
+	Parameter C_INTC_HAS_FAST bound to: 0 - type: integer 
+	Parameter C_INTC_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_INTC_BASE_VECTORS bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_INTC_ASYNC_INTR bound to: 16'b1111111111111111 
+	Parameter C_INTC_NUM_SYNC_FF bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'Iomodule_core' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:8502' bound to instance 'IOModule_Core_I1' of component 'iomodule_core' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:10680]
+INFO: [Synth 8-638] synthesizing module 'Iomodule_core' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:8716]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_FREQ bound to: 100000000 - type: integer 
+	Parameter C_UART_FREQ bound to: 100000000 - type: integer 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 199 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_UART_PROG_BAUDRATE bound to: 0 - type: integer 
+	Parameter C_UART_ASYNC bound to: 0 - type: integer 
+	Parameter C_UART_NUM_SYNC_FF bound to: 2 - type: integer 
+	Parameter C_UART_BAUDRATE bound to: 9600 - type: integer 
+	Parameter C_USE_UART_RX bound to: 0 - type: integer 
+	Parameter C_USE_UART_TX bound to: 0 - type: integer 
+	Parameter C_UART_DATA_BITS bound to: 8 - type: integer 
+	Parameter C_UART_USE_PARITY bound to: 0 - type: integer 
+	Parameter C_UART_ODD_PARITY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'UART' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:7680' bound to instance 'UART_I1' of component 'UART' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9042]
+INFO: [Synth 8-638] synthesizing module 'UART' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:7731]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_FREQ bound to: 100000000 - type: integer 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 136 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_UART_PROG_BAUDRATE bound to: 0 - type: integer 
+	Parameter C_UART_BAUDRATE bound to: 9600 - type: integer 
+	Parameter C_USE_UART_RX bound to: 0 - type: integer 
+	Parameter C_USE_UART_TX bound to: 0 - type: integer 
+	Parameter C_UART_DATA_BITS bound to: 8 - type: integer 
+	Parameter C_UART_USE_PARITY bound to: 0 - type: integer 
+	Parameter C_UART_ODD_PARITY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'UART_Core' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:7134' bound to instance 'UART_Core_I' of component 'UART_Core' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:7850]
+INFO: [Synth 8-638] synthesizing module 'UART_Core' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:7178]
+INFO: [Synth 8-256] done synthesizing module 'UART_Core' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:7178]
+INFO: [Synth 8-256] done synthesizing module 'UART' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:7731]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 34 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_USE_FIT bound to: 0 - type: integer 
+	Parameter C_NO_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_INACCURACY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'FIT_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:2493' bound to instance 'FIT_I1' of component 'FIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9095]
+INFO: [Synth 8-638] synthesizing module 'FIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:2521]
+INFO: [Synth 8-256] done synthesizing module 'FIT_Module' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:2521]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 34 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_USE_FIT bound to: 0 - type: integer 
+	Parameter C_NO_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_INACCURACY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'FIT_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:2493' bound to instance 'FIT_I2' of component 'FIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9118]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 34 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_USE_FIT bound to: 0 - type: integer 
+	Parameter C_NO_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_INACCURACY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'FIT_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:2493' bound to instance 'FIT_I3' of component 'FIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9141]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 34 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_USE_FIT bound to: 0 - type: integer 
+	Parameter C_NO_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_INACCURACY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'FIT_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:2493' bound to instance 'FIT_I4' of component 'FIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9164]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 70 - type: integer 
+	Parameter C_USE_PIT bound to: 0 - type: integer 
+	Parameter C_PIT_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT_READABLE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'PIT_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4273' bound to instance 'PIT_I1' of component 'PIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9202]
+INFO: [Synth 8-638] synthesizing module 'PIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4304]
+INFO: [Synth 8-256] done synthesizing module 'PIT_Module' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4304]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 70 - type: integer 
+	Parameter C_USE_PIT bound to: 0 - type: integer 
+	Parameter C_PIT_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT_READABLE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'PIT_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4273' bound to instance 'PIT_I2' of component 'PIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9241]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 70 - type: integer 
+	Parameter C_USE_PIT bound to: 0 - type: integer 
+	Parameter C_PIT_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT_READABLE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'PIT_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4273' bound to instance 'PIT_I3' of component 'PIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9280]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 70 - type: integer 
+	Parameter C_USE_PIT bound to: 0 - type: integer 
+	Parameter C_PIT_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT_READABLE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'PIT_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4273' bound to instance 'PIT_I4' of component 'PIT_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9319]
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 32 - type: integer 
+	Parameter C_USE_GPO bound to: 1 - type: integer 
+	Parameter C_GPO_SIZE bound to: 8 - type: integer 
+	Parameter C_GPO_INIT bound to: 32'b00000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'GPO_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3186' bound to instance 'GPO_I1' of component 'GPO_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9347]
+INFO: [Synth 8-638] synthesizing module 'GPO_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3210]
+INFO: [Synth 8-256] done synthesizing module 'GPO_Module' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3210]
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 32 - type: integer 
+	Parameter C_USE_GPO bound to: 0 - type: integer 
+	Parameter C_GPO_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO_INIT bound to: 32'b00000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'GPO_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3186' bound to instance 'GPO_I2' of component 'GPO_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9366]
+INFO: [Synth 8-638] synthesizing module 'GPO_Module__parameterized1' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3210]
+INFO: [Synth 8-256] done synthesizing module 'GPO_Module__parameterized1' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3210]
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 32 - type: integer 
+	Parameter C_USE_GPO bound to: 0 - type: integer 
+	Parameter C_GPO_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO_INIT bound to: 32'b00000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'GPO_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3186' bound to instance 'GPO_I3' of component 'GPO_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9385]
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 32 - type: integer 
+	Parameter C_USE_GPO bound to: 0 - type: integer 
+	Parameter C_GPO_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO_INIT bound to: 32'b00000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'GPO_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3186' bound to instance 'GPO_I4' of component 'GPO_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9404]
+	Parameter C_USE_GPI bound to: 0 - type: integer 
+	Parameter C_GPI_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI_INTERRUPT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPI_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3015' bound to instance 'GPI_I1' of component 'GPI_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9426]
+INFO: [Synth 8-638] synthesizing module 'GPI_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3031]
+INFO: [Synth 8-256] done synthesizing module 'GPI_Module' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3031]
+	Parameter C_USE_GPI bound to: 0 - type: integer 
+	Parameter C_GPI_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI_INTERRUPT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPI_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3015' bound to instance 'GPI_I2' of component 'GPI_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9442]
+	Parameter C_USE_GPI bound to: 0 - type: integer 
+	Parameter C_GPI_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI_INTERRUPT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPI_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3015' bound to instance 'GPI_I3' of component 'GPI_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9458]
+	Parameter C_USE_GPI bound to: 0 - type: integer 
+	Parameter C_GPI_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI_INTERRUPT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPI_Module' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3015' bound to instance 'GPI_I4' of component 'GPI_Module' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9474]
+	Parameter C_TARGET bound to: 1'b0 
+	Parameter C_TMR bound to: 0 - type: integer 
+	Parameter C_USE_TMR_DISABLE bound to: 0 - type: integer 
+	Parameter C_VOTE_SIZE bound to: 170 - type: integer 
+	Parameter C_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_INTC_ENABLED bound to: 0 - type: integer 
+	Parameter C_INTC_LEVEL_EDGE bound to: 32'b00000000000000001111111111111111 
+	Parameter C_INTC_POSITIVE bound to: 32'b11111111111111111111111111111111 
+	Parameter C_INTC_ASYNC_INTR bound to: 32'b11111111111111110000000000000000 
+	Parameter C_INTC_HAS_FAST bound to: 0 - type: integer 
+	Parameter C_INTC_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_INTC_NUM_SYNC_FF bound to: 2 - type: integer 
+	Parameter C_INTC_BASE_VECTORS bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_USE_LUTRAM bound to: yes - type: string 
+INFO: [Synth 8-3491] module 'intr_ctrl' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3365' bound to instance 'intr_ctrl_I1' of component 'intr_ctrl' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:9516]
+INFO: [Synth 8-638] synthesizing module 'intr_ctrl' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3411]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+INFO: [Synth 8-638] synthesizing module 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1031]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1060]
+INFO: [Synth 8-256] done synthesizing module 'MB_FDR' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1031]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+	Parameter C_TARGET bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDR' declared at 'c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:1015' bound to instance 'fdr_i' of component 'MB_FDR' [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:4170]
+INFO: [Synth 8-256] done synthesizing module 'intr_ctrl' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:3411]
+INFO: [Synth 8-256] done synthesizing module 'Iomodule_core' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:8716]
+INFO: [Synth 8-256] done synthesizing module 'iomodule' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd:10092]
+INFO: [Synth 8-256] done synthesizing module 'arm_processor_iomodule_0_0' (0#1) [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ip/arm_processor_iomodule_0_0/synth/arm_processor_iomodule_0_0.vhd:78]
+WARNING: [Synth 8-7129] Port Reset in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TMR_Disable in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[169] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[168] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[167] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[166] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[165] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[164] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[163] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[162] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[161] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[160] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[159] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[158] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[157] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[156] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[155] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[154] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[153] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[152] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[151] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[150] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[149] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[148] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[147] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[146] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[145] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[144] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[143] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[142] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[141] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[140] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[139] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[138] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[137] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[136] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[135] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[134] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[133] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[132] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[131] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[130] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[129] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[128] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[127] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[126] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[125] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[124] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[123] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[122] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[121] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[120] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[119] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[118] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[117] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[116] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[115] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[114] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[113] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[112] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[111] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[110] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[109] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[108] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[107] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[106] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[105] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[104] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[103] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[102] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[101] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[100] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[99] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[98] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[97] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[96] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[95] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[94] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[93] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[92] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[91] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[90] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[89] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[88] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[87] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[86] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[85] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[84] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[83] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[82] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[81] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[80] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[79] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[78] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[77] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[76] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[75] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[74] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[73] in module intr_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FromAVote[72] in module intr_ctrl is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1805.344 ; gain = 338.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1805.344 ; gain = 338.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1805.344 ; gain = 338.965
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1805.344 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 32 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ip/arm_processor_iomodule_0_0/arm_processor_iomodule_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ip/arm_processor_iomodule_0_0/arm_processor_iomodule_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ip/arm_processor_iomodule_0_0/arm_processor_iomodule_0_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/project_4/project_4.gen/sources_1/bd/arm_processor/ip/arm_processor_iomodule_0_0/arm_processor_iomodule_0_0_board.xdc] for cell 'U0'
+Parsing XDC File [C:/project_4/project_4.runs/arm_processor_iomodule_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/project_4/project_4.runs/arm_processor_iomodule_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1862.008 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  FDR => FDRE: 32 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 1862.008 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:15:25 . Memory (MB): peak = 1862.008 ; gain = 395.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku5p-ffvb676-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:15:25 . Memory (MB): peak = 1862.008 ; gain = 395.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/project_4/project_4.runs/arm_processor_iomodule_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP = true for U0/IOModule_Core_I1/GPO_I1/GPO[0]. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:15:25 . Memory (MB): peak = 1862.008 ; gain = 395.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:15:25 . Memory (MB): peak = 1862.008 ; gain = 395.629
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/IOModule_Core_I1/FIT_I1' (FIT_Module) to 'U0/IOModule_Core_I1/FIT_I2'
+INFO: [Synth 8-223] decloning instance 'U0/IOModule_Core_I1/FIT_I1' (FIT_Module) to 'U0/IOModule_Core_I1/FIT_I3'
+INFO: [Synth 8-223] decloning instance 'U0/IOModule_Core_I1/FIT_I1' (FIT_Module) to 'U0/IOModule_Core_I1/FIT_I4'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1824 (col length:96)
+BRAMs: 960 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[0].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[1].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[2].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[3].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[4].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[5].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[6].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[7].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[8].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[9].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[10].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[11].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[12].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[13].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[14].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[15].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[16].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[17].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[18].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[19].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[20].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[21].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[22].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[23].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[24].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[25].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[26].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[27].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[28].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[29].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[30].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+WARNING: [Synth 8-3332] Sequential element (IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[31].fdr_i/Using_FPGA.Native) is unused and will be removed from module iomodule.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 100:37:14 . Memory (MB): peak = 1862.008 ; gain = 395.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 100:37:36 . Memory (MB): peak = 2421.363 ; gain = 954.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 100:37:37 . Memory (MB): peak = 2431.152 ; gain = 964.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 100:37:37 . Memory (MB): peak = 2441.656 ; gain = 975.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------

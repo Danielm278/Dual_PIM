@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "project_4_app_hw_1",
+      "debugType": "baremetal-fpga",
+      "xsaPath": "${workspaceFolder}\\Top_Level.xsa",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../_ide/.peers.ini",
+        "context": "Device"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "bitstreamFile": "${workspaceFolder}\\_ide\\Top_Level\\Top_Level.bit",
+        "downloadElf": []
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}

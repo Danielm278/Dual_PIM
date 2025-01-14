@@ -1,0 +1,45 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_lmb_bram_0_1/sim/arm_processor_lmb_bram_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arm_processor_lmb_bram_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_clk_wiz_1_0_1/arm_processor_clk_wiz_1_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arm_processor_clk_wiz_1_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_clk_wiz_1_0_1/arm_processor_clk_wiz_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arm_processor_clk_wiz_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_0/sim/bd_1ae3_one_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_one_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_2/sim/bd_1ae3_s00mmu_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_s00mmu_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_3/sim/bd_1ae3_s00tr_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_s00tr_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_4/sim/bd_1ae3_s00sic_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_s00sic_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_5/sim/bd_1ae3_s00a2s_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_s00a2s_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_6/sim/bd_1ae3_sarn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_sarn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_7/sim/bd_1ae3_srn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_srn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_8/sim/bd_1ae3_sawn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_sawn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_9/sim/bd_1ae3_swn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_swn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_10/sim/bd_1ae3_sbn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_sbn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_11/sim/bd_1ae3_m00s2a_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_m00s2a_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/ip/ip_12/sim/bd_1ae3_m00e_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3_m00e_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/bd_0/sim/bd_1ae3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1ae3
+INFO: [VRFC 10-311] analyzing module clk_map_imp_138M7VH
+INFO: [VRFC 10-311] analyzing module m00_exit_pipeline_imp_WOD7D2
+INFO: [VRFC 10-311] analyzing module s00_entry_pipeline_imp_1WIH6RP
+INFO: [VRFC 10-311] analyzing module s00_nodes_imp_1R2QA3J
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/ip/arm_processor_axi_smc_0_1/sim/arm_processor_axi_smc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arm_processor_axi_smc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_4/project_4.ip_user_files/bd/arm_processor/sim/arm_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arm_processor
+INFO: [VRFC 10-311] analyzing module microblaze_0_local_memory_imp_1X00QBT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_4/project_4.srcs/sources_1/new/Top_Level.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_Level
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_4/project_4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

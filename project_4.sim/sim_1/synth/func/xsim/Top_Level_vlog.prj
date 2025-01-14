@@ -1,0 +1,4 @@
+# compile verilog/system verilog design source files
+
+# Do not sort compile order
+nosort
